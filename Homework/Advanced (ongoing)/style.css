@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 html{
     background-color: black;
     color: white;
@@ -10,9 +15,24 @@ body {
     margin-top: auto;
     width: 100em;
 }
-nav {
-    display: block;
+
+/*Topbar Styling*/
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 5px;
+    margin-top: 5px;
 }
+
+.logo {
+    position: relative;
+    
+}
+
+/*Button style*/
 button {
     --glow-color: rgb(217, 176, 255);
     --glow-spread-color: rgba(191, 123, 255, 0.781);
@@ -32,7 +52,6 @@ button {
     text-shadow: 0 0 .5em var(--glow-color);
     position: relative;
     transition: all 0.3s;
-    vertical-align: middle;
    }
    
    button::after {
@@ -62,15 +81,20 @@ button {
            0 0 2.5em 2em var(--glow-spread-color),
            inset 0 0 .5em .25em var(--glow-color);
    }
+ul{
+    display: inline-block;
+}
 
 p {
     font-size: large;
+    text-align: center;
 }
+
 
 img {
     max-width: 200px;
     max-height: 200px;
 }
 .logo {
-    width: 10px;
+    width: 100px;
 }
