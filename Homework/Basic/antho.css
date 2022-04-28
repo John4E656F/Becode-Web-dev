@@ -1,0 +1,49 @@
+body
+{
+    background-color: black;
+    color: white;
+    font-size: 34px;
+    text-align: center;
+}
+
+h1
+{
+    font-size: 54px;
+    color: red;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2
+{
+    font-size: 44px;
+    color: purple;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p
+{
+    font-family: fantasy;
+    color: lightgreen;
+    font-size: 34px;
+    text-align: justify;
+}
+
+ul
+{
+    color: lightskyblue;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.passion
+{
+    text-align: left;
+    color: slategray;
+}
+
+.parcour
+{
+    color: white;
+    text-align: right;
+}
