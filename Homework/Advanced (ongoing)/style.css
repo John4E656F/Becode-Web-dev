@@ -82,7 +82,9 @@ button {
            inset 0 0 .5em .25em var(--glow-color);
    }
 ul{
-    display: inline-block;
+    display: inline-block; 
+    @media (min-width:700px) {
+        color: red;    }
 }
 
 p {

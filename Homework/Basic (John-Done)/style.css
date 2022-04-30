@@ -67,16 +67,25 @@ h2 {
 ul {
     text-align: center;
     list-style: inside;
+    display: inline-block; 
+    
+
   }
-
-
-
+   
+  
   footer {
       padding-top: 50px;
       text-align: center;
       font-size: 50px;
-  }
+    }
   footer>a {
       margin-left: 20px;
       
+    }
+    @media screen and (max-width: 700px) {
+      body {
+          background-color: red;
+      }
+         
+  
   }
